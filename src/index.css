@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.iframe-container {
+  border: 1px solid #000;
+  /* Màu viền đen */
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.iframe-container iframe {
+  width: 700;
+  height: 900;
+  border: none;
+}
+
+.ButtonAction:hover {
+  background-color: brown;
+}
+
+button {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+item {
+  border: #000;
+  background: '#f4f4f4',
+
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.df {
+  display: flex;
+}
+
+.header_ntf {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  padding: 20px;
+}
+.header_ntf_logo{
+  color: #3C4448;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header_ntf_info{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.header_ntf_avatar{
+  display: flex;
+  gap: 10px;
+}
+
+.header_ntf_name p{
+ text-align: right;
+}
+.create_input textarea{
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+input{
+  border: 1px solid #ccc;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+.create_btn{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper{
+  display: flex;
+ gap: 30px;
+ justify-content: space-around;
+}
+.list_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list_box_title{
+  display: flex;
+  justify-content: space-between;
+}
+.list_content{
+  width: 425px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+.list_box_title{
+  margin-top: 20px;
+}
+.list_box_title p{
+  margin-left: 40px;
+}
+.list_box_title img{
+  width: 20px;
+  height: 20px;
+}
+.team{
+  background-color: #F5F5F5;
+  width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.team_title{
+  display: flex;
+  gap: 10px;
+}
+.team_des{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.team_box{
+  width: 100px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #3C4448;
+  margin-top: 5px;
+
+}
+.noti_content p,h2{
+  color: #606C72;
+  font-weight: 500;
+  font-size: 20px;
+}
+.create_title{
+  font-weight: 500;
+
+}
+.create_btn p{
+  font-size: 16px;
+  font-weight: 400;
+}
+.create_btn_send{
+  background-color: #0F172A;
+  padding: 10px 25px;
+  color: #fff;
+  border-radius: 10px;
+}
+.err{
+  color: red !important;
+}
+input:focus{
+  border: none;
+}
